@@ -1,0 +1,86 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	background-color: #27C45D;
+	animation:colorchange 5s infinite;
+	-ms-animation:colorchange 5s infinite;
+	-o-animation:colorchange 5s infinite;
+	-moz-animation:colorchange 5s infinite;
+	-webkit-animation:colorchange 5s infinite;
+}
+@keyframes colorchange{
+	0%{
+		background-color: #27C45D;
+	}
+	50%{
+		background-color: #17B450;
+	}
+	100%{
+		background-color: #27C45D;
+	}
+}
+@-webkit-keyframes colorchange{
+	0%{
+		background-color: #27C45D;
+	}
+	50%{
+		background-color: #17B450;
+	}
+	100%{
+		background-color: #27C45D;
+	}
+}
+@-moz-keyframes colorchange{
+	0%{
+		background-color: #27C45D;
+	}
+	50%{
+		background-color: #17B450;
+	}
+	100%{
+		background-color: #27C45D;
+	}
+}
+@-ms-keyframes colorchange{
+	0%{
+		background-color: #27C45D;
+	}
+	50%{
+		background-color: #17B450;
+	}
+	100%{
+		background-color: #27C45D;
+	}
+}
+@-o-keyframes colorchange{
+	0%{
+		background-color: #27C45D;
+	}
+	50%{
+		background-color: #17B450;
+	}
+	100%{
+		background-color: #27C45D;
+	}
+}
+.card{
+	width: 360px;
+	height:560px;
+	background-color: #fff;
+	margin: 50px auto;
+	border-radius: 6px;
+	box-shadow: 2px 2px 2px #333;
+	padding: 20px;
+}
+.card h1{
+	font-size: 20px;
+	color: #333;
+	line-height: 40px;
+}
+.card p,.card strong{
+	color: #666;
+}

@@ -1,0 +1,160 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-size: 14px;
+	font-family: "微软雅黑";
+	background-color: #8DE2F6;
+}
+.piano{
+	width:1000px;
+	height: 600px;
+	margin: 50px auto;
+	background-color: #fff;
+	box-shadow: 6px 6px 6px #333;
+	border-radius: 6px;
+	overflow: hidden;
+}
+.piano .header{
+	height: 160px;
+	width:960px;
+	background-color: #eee;
+	padding: 20px;
+}
+#text{
+	padding: 10px;
+	width:940px;
+	height:100px;
+	resize: none;
+}
+#play{
+	width:100%;
+	height:40px;
+	background-color: #000;
+	border: 0px none;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	transition:all 0.3s ease;
+	cursor: pointer;
+}
+#play:active{
+	background-color: #333;
+}
+.piano .main-cen{
+	width: 1000px;
+	height: 300px;
+	background-color: #ccc;
+	border-top: 1px solid #000;
+	position: relative;
+}
+.piano .main-cen span{
+	display: block;
+	box-sizing:border-box;
+	width: 47px;
+	height: 300px;
+	border-left:1px solid #000;
+	background-color: #fff;
+	float: left;
+	position: relative;
+	transition:all 0.2s ease;
+	-moz-transition:all 0.2s ease;
+	-webkit-transition:all 0.2s ease;
+	-o-transition:all 0.2s ease;
+	-ms-transition:all 0.2s ease;
+}
+.piano .main-cen i{
+	display: block;
+	position: absolute;
+	top:0;
+	width: 30px;
+	height: 230px;
+	background-color: #000;
+	transition:all 0.2s ease;
+	-moz-transition:all 0.2s ease;
+	-webkit-transition:all 0.2s ease;
+	-o-transition:all 0.2s ease;
+	-ms-transition:all 0.2s ease;
+}
+.piano .main-cen i:active{
+	background-color: #333;
+	box-shadow:inset 1px 1px 1px #eee;
+}
+.main-cen i.a-1{
+	left:38px;
+}
+.main-cen i.a-2{
+	left:130px;
+}
+.main-cen i.a-3{
+	left:180px;
+}
+.main-cen i.a-4{
+	left:270px;
+}
+.main-cen i.a-5{
+	left:320px;
+}
+.main-cen i.b-1{
+	left:414px;
+}
+.main-cen i.b-2{
+	left:460px;
+}
+.main-cen i.b-3{
+	left:556px;
+}
+.main-cen i.b-4{
+	left:600px;
+}
+.main-cen i.b-5{
+	left:650px;
+}
+.main-cen i.c-1{
+	left:742px;
+}
+.main-cen i.c-2{
+	left:790px;
+}
+.main-cen i.c-3{
+	left:880px;
+}
+.main-cen i.c-4{
+	left:930px;
+}
+.piano .main-cen span:active{
+	background-color: #D3D3D3;
+	box-shadow:inset 2px 1px 3px #333;
+}
+.piano .main-cen .last{
+	width: 49px;
+	border-right:1px solid #000;
+}
+.main-cen .main-body{
+	width: 990px;
+	height: 300px;
+	margin: 0 auto;
+	background-color: #666;
+}
+.piano .about{
+	height:100px;
+	background-color: #333;
+}
+.piano .about p{
+	text-align: center;
+	color: #fff;
+	line-height: 40px;
+}
+.piano .about p span{
+	color: yellow;
+}
+.piano .about a{
+	text-align: center;
+	color: red;
+	text-decoration: none;
+}
+.piano .about a:hover{
+	text-decoration: underline;
+}
+
