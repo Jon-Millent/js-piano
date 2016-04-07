@@ -1,5 +1,4 @@
 # js-piano
-<a href="http://www.thisummer.top/rose/piano/">在线示例</a>
 快来用js来演奏你拿手的钢琴曲吧<br />
 开头数字<br />
 开头的数字是每秒的频率，单位(毫秒)<br />
